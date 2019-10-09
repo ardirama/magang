@@ -1,0 +1,12 @@
+Jawaban : 
+
+1. Di luar 
+
+2. SELECT siswa.nama FROM siswa INNER JOIN ruangan ON siswa.no_absen = ruangan.no_kelas;
+
+3. SELECT siswa.nama ,mata_pelajaran.pelajaran FROM `mata_pelajaran` INNER JOIN siswa ON siswa.no_absen = mata_pelajaran.no_pel;
+
+4. SELECT siswa.nama FROM `mata_pelajaran` RIGHT JOIN siswa ON mata_pelajaran.pelajaran LIKE '%matematika%';
+
+5. SELECT siswa.nama,ruangan.nama_kelas FROM ruangan INNER JOIN siswa ON siswa.no_absen = ruangan.no_kelas;
+
