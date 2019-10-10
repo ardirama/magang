@@ -1,0 +1,4 @@
+1. Function dan arrow function
+2. syncronus dan asyncronus node js
+3. crud express js return json , benerin table
+
